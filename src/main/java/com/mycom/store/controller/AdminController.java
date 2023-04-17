@@ -53,7 +53,8 @@ public class AdminController {
 		model.addAttribute("update", storeVO);
 		
 	}
-
+	
+	//스토어 상품 등록 폼
 	@RequestMapping("admin_storeInsert")
 	public void admin_storeInsert() throws Exception {
 	}
